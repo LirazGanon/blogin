@@ -30,12 +30,12 @@
 /* TYPOGRAPHY */
 @font-face {
     font-family: Eurofurenceregular;
-    src: url(/fonts/eurof55.ttf);
+    src: url(../fonts/eurof55.ttf);
 }
 
 @font-face {
     font-family: Lato;
-    src: url(/fonts/Lato-Regular.ttf);
+    src: url(../fonts/Lato-Regular.ttf);
 }
 
 /* BASICS   */
