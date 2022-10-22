@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,24 +8,24 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
-<body class="main-layout">
+<body class="main-layout" onload="oninit()">
     <div class="main-screen full" onclick="toggleMenu()"></div>
     <header class="main-header main-layout full flex align-center ">
         <div class="header-content flex space-between grow-1">
             <div class="logo" data-end=".">Blogin</div>
             <nav class="main-nav flex align-center">
                 <ul class="nav-links flex clean-list">
-                    <li><a href="#">Journal</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li class="li-nav-link current-page-bottom" ><a class="current-page-color" href="#">Journal</a></li>
+                    <li class="li-nav-link"><a  href="#">About</a></li>
+                    <li class="li-nav-link "><a href="#">Work</a></li>
+                    <li class="li-nav-link "><a href="#">Contact</a></li>
                 </ul>
             </nav>
+            <button type="button" class="btn-menu" onclick="toggleMenu()" >☰</button>
         </div>
-        <button type="button" class="btn-menu" onclick="toggleMenu()" >☰</button>
     </header>
 
-    <main class="main-content">
+    <main class="main-content">`
         <article class="content-preview flex">
             <div class="preview-img-container">
                 <img src="img/pre_2.png" alt="">
