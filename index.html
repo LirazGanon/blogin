@@ -10,6 +10,7 @@
 
 <body class="main-layout" onload="oninit()">
     <div class="main-screen full" onclick="toggleMenu()"></div>
+    <div class="secondary-screen full" onclick="toggleModal()"></div>
     <header class="main-header main-layout full flex align-center ">
         <div class="header-content flex space-between grow-1">
             <div class="logo" data-end=".">Blogin</div>
@@ -26,6 +27,15 @@
     </header>
 
     <main class="main-content">
+        <section class="modal read-more" >
+            <h2> Join us to get access to the latest stories!</h2>
+            <p>
+                a nice textbox for email (for now – this does nothing)
+            </p>
+            <input class="modal-input" type="text" name="" id="">
+            submit and close buttons
+            <button class="modal-btn" type="button" onclick="toggleModal()">Close</button>
+        </section>
         <article class="content-preview flex">
             <div class="preview-img-container">
                 <img src="img/pre_2.png" alt="">
@@ -38,7 +48,7 @@
 
                 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur...</p>
-                <button data-end="&rarr;">Continue Reading </button>
+                <button data-end="&rarr;" onclick="toggleModal()">Continue Reading </button>
             </div>
         </article>
 
@@ -55,7 +65,7 @@
 
                 <p>aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur...</p>
-                <button data-end="&rarr;">Continue Reading </button>
+                <button data-end="&rarr;" onclick="toggleModal()">Continue Reading </button>
             </div>
 
         </article>
@@ -74,7 +84,7 @@
                 <p>
                     aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur...</p>
-                <button data-end="&rarr;">Continue Reading </button>
+                <button data-end="&rarr;" onclick="toggleModal()">Continue Reading </button>
             </div>
         </article>
 

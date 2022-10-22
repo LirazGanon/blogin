@@ -16,3 +16,7 @@ function oninit() {
 function toggleMenu() {
     document.body.classList.toggle('menu-open')
 }
+
+function toggleModal() {
+    document.body.classList.toggle('modal-open')
+}
